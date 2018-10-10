@@ -47,9 +47,9 @@ public class Principal {
             }*/
             
             // EXCLUIR
-            /*Sistema sistema = new Sistema();
-            sistema.setId(1);
-            session.remove(sistema);*/
+            Sistema sistema = new Sistema();
+            sistema.setNome("asdasd");
+            session.save(sistema);
             
             
             // INSERT NA TABELA

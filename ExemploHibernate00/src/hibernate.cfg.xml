@@ -18,5 +18,6 @@
         </property>
         
         <mapping resource="sistema.hbm.xml"/>
+        <mapping resource="aluno.hbm.xml"/>
     </session-factory>
 </hibernate-configuration>
